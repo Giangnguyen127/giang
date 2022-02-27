@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+body
+{min-width: 300px;
+	min-height: 300px;
+
+}
+.header
+{
+	width: 100%;
+	height: 50px;
+	background-color:#e2f3f2; 
+	position: relative;
+	white-space: nowrap;
+    overflow: hidden;
+}
+.logo
+{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 30px;
+		
+}
+.logo img
+{
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+
+.header-menu
+{
+	width: 90%;
+	color:#000000; 
+	float: right;
+	vertical-align: middle;
+	
+	
+}
+.header-menu ul
+{
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+.header-menu ul li
+{
+	display: inline-block;
+	margin-left: 40px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.header-menu ul li a
+{
+	text-decoration: none;
+	color:#533535;
+	
+}
+
+.header-menu ul li:hover a
+{
+	background-color: antiquewhite;
+	
+	
+}
+
+/*hinh anh*/
+.banner
+{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background-image:url("../images/ice cream part2.jpg");
+	background-size: cover;
+	white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+/*noi dung*/
+	
+	
+.banner h1
+{
+	color:#A82426;
+	margin-left:70px;
+	margin-top: 100px;
+	font-size:60px;
+	text-align: center;
+}
+.banner h2
+{
+	color: white;
+	margin-left:70px;
+	font-size:30px;
+	text-align: center;
+	
+}
+.button
+{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 15px auto;
+	padding: 8px;
+	cursor: pointer;
+}
+.btn-text:hover
+{
+	font-size: 15px;
+	color: black;
+}
+.category
+{
+	width: 100%;
+	background-color:#F9ECB1;
+	height: 350px;
+	padding-top: 50px;
+	white-space: nowrap;
+    overflow: hidden;
+}	
+
+.pic
+{
+	width: 25%;
+	height:250px;
+	border-radius: 8px;
+	font-size: 12px;
+	color: white;
+	float: left;
+	margin-left:50px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid red;
+	box-sizing: border-box;
+	white-space: nowrap;
+    overflow: hidden;
+}	
+.pic img {width: 100%;
+			white-space: nowrap;
+   			overflow: hidden;
+	 
+	}
+.pic-text
+	{
+		position: absolute;
+		text-align: center;
+		top:150px;
+		left:30px;
+		white-space: nowrap;
+   		overflow: hidden;
+		
+}
+.pic-text h1:hover	
+		{
+			color:antiquewhite;
+		}
+.introduction
+{
+	width: 100%;
+	height: 350px;
+	background-color: white;
+	white-space: nowrap;
+    overflow: hidden;
+	
+}
+.intro-1
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding-left:70px;
+	box-sizing: border-box;
+	white-space: nowrap;
+    overflow: hidden;
+	
+}
+.intro-1-text
+{	
+	width: 90%;
+	color: #665950;
+	padding:110px 0px 15px 0px;
+	white-space: nowrap;
+    overflow: hidden;
+	
+}
+.intro-1-btn
+{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid #96F2E1;
+	border-radius: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding-top:8px;
+	margin-top: 30px;
+}
+.intro-1-btn:hover
+{
+	font-size: 15px;
+	color: black;
+}
+.videoborder
+{
+	width: 50%;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+}
+.videoborder video
+{ 	width:100%;
+	height:100%;
+	box-sizing: border-box;
+	float: right;
+	white-space: nowrap;
+    overflow: hidden;
+	
+}
+.signup
+{
+		width: 100%;
+		height: 350px;
+        background-color: white;
+		white-space: nowrap;
+    	overflow: hidden;
+}
+	.columnleft
+		{
+			width: 50%;
+			height: 100%;
+        	background-image:url("../images/recipe-image-legacy-id-560491_11-8342908.jpg");
+			background-size: cover;
+			float: left;
+			transform:scale(0.999);
+			white-space: nowrap;
+   			overflow: hidden;
+		}
+    
+.columnright
+		{
+			width: 50%;
+			height: 100%;
+        	background-color:white;
+			float: right;
+			vertical-align: middle;
+			white-space: nowrap;
+   			overflow: hidden;
+		}
+
+.right-text
+{	
+	width: 90%;
+	color: #665950;
+	padding:110px 30px 15px 60px;
+	white-space: nowrap;
+   	overflow: hidden;
+	
+	
+	
+}
+.right-btn
+{
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid #96F2E1;
+	border-radius: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding-top:8px;
+	margin-top: 30px;
+}
+.intro-1-btn:hover
+{
+	font-size: 15px;
+	color: black;
+}
+
+.last
+{
+		width: 100%;
+		height: 400px;
+        background-color: #363941;
+		background-image:url("../images/ice_cream_banner.jpg");
+		background-size: cover;
+		transform:scale(0.999);
+	white-space: nowrap;
+    overflow: hidden;
+}
+ 
+.footer
+{
+	width: 100%;
+	height: 150px;
+	background-color:#e2f3f2; 
+	position: relative;
+	white-space: nowrap;
+    overflow: hidden;
+}
+		
+    
+.footer-logo
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 30px;
+		
+}
+img
+{
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+
+.footer-menu
+{
+	width: 90%;
+	color:#000000; 
+	float: right;
+	margin-top:30px;
+	
+	
+}
+.footer-menu ul
+{
+	list-style: none;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+.footer-menu ul li
+{
+	display: inline-block;
+	margin-left: 40px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.footer-menu ul li a
+{
+	text-decoration: none;
+	color:#533535;
+	
+}
+
+.footer-menu ul li:hover a
+{
+	background-color: antiquewhite;
+	
+}
